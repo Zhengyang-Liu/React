@@ -25,6 +25,7 @@ const Menu = (props) => {
             </div>
         );
     });
+    
     if (props.dishes.isLoading) {
         return (
             <div className="container">
